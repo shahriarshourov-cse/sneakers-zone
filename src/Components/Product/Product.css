@@ -32,9 +32,13 @@
   background-color: rgb(229, 175, 108);
   position: absolute;
   bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
 }
 .button-cart:hover {
-  background-color: rgb(200, 111, 1);
+  background-color: rgb(255, 166, 0);
 }
 .products-container {
   display: grid;
